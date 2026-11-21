@@ -1,0 +1,8 @@
+{"query": "Who won the football World Cup in 2022?", "retriever_type": "similarity", "timestamp": "2026-10-21T18:18:48.242096Z", "level": "info", "severity": "INFO", "event": "RAG query received"}
+{"path": "D:\\DataScience\\Projects\\meridian-AI\\.meridian\\chroma", "timestamp": "2026-10-21T18:18:48.625442Z", "level": "info", "severity": "INFO", "event": "Using local Chroma vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+AFC is enabled with max remote calls: 10.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+Retrying google.genai._api_client.BaseApiClient._request_once in 1.42 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}.
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+Retrying google.genai._api_client.BaseApiClient._request_once in 2.97 seconds as it raised ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}.

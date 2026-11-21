@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+/logs/
+docs/
+tests/
+.env
+.env.example
+.meridian/
+sample_docs/
