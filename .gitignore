@@ -234,3 +234,7 @@ credentials/
 # Test Notebooks
 try_*.py
 try_*.ipynb
+
+# keys
+*-*-key.json
+GCP_CREDENTIALS_JSON.json
